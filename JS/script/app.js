@@ -1,73 +1,105 @@
 "use strict";
 
 // 1
-// alert([1, 2, 3]);
+// let weekObj = {
+//   1: "Понедельник",
+//   2: "Вторник",
+//   3: "Среда",
+//   4: "Четверг",
+//   5: "Пятница",
+//   6: "Суббота",
+//   7: "Воскресенье",
+// };
+// console.table(weekObj);
 
 // 2
-// alert(["wefewfef", "wefewffew"]);
+// Писать много херни - задолбался
+// let weekObj = {
+//     1: "Понедельник",
+//     2: "Вторник",
+//     3: "Среда",
+//     4: "Четверг",
+//     5: "Пятница",
+//     6: "Суббота",
+//     7: "Воскресенье",
+//   };
 
 // 3
-// let arr = [1, 2, 3];
-// console.log(arr[0]);
-// console.log(arr[1]);
-// console.log(arr[2]);
+// let obj = {
+//   user: "ergrgegregg",
+//   username: "ewfewfewfewfw",
+//   patronymic: "wefweffweffew",
+// };
+// console.table(obj);
 
 // 4
-// [1, 2, 3].forEach((item) => console.log(item));
+// let curr = {
+//     'year': 2022,
+//     'month': 09,
+//     'day': 22
+// };
+// console.table(curr);
 
 // 5
-// console.log([1, 2, 3].reduce((prev, curr) => prev + curr));
+// let obj = {
+// 	'1a': 1,
+// 	'b2': 2,
+// 	'с-с': 3,
+// 	'd 4': 4,
+// 	'e5': 5
+// }; b2 e5
 
 // 6
-// console.log(
-//   ["a", "b", "c", "d"].reduce((prev, curr, item, index) => {
-//     if (index !== 3) {
-//       return prev + "+" + curr;
-//     }
-//   })
-// );
+// let obj = {
+// 	'1a': 1,
+// 	'b2': 2,
+// 	'с-с': 3,
+// 	'd 4': 4,
+// 	'e5': 5
+// };
+// console.log(obj['1a']);
+// console.log(obj.b2);
+// console.log(obj['c-c']);
+// console.log(obj['d 4']);
+// console.log(obj.e5);
 
 // 7
-// console.log([1, 2, 3].length);
+// let obj = { x: 1, y: 2, z: 3 };
+// for (let key in obj) {
+//   obj[key] = obj[key] ** 2;
+// }
+// console.table(obj);
 
 // 8
-// let arr = [1, 2, 3];
-// console.log(arr[arr.length-1]);
+// let obj = {};
+// obj.a = 'wefwefefew';
+// obj.c = 'wefwefwefwe';
 
 // 9
-// let arr = ['a', 'b', 'c'];
-// arr[0] = 1;
-// arr[1] = 2;
-// arr[2] = 3;
+// let obj = { 3: "a", 2: "b", 1: "c" };
+// console.table(obj);
 
 // 10
-// let arr = [1, 2, 3],
-//   newArr = arr.map((item) => item + 3);
-// console.log(newArr);
+// let obj = { x: 1, y: 2, z: 3 };
+// let keysObj = Object.keys(obj);
+// console.table(keysObj);
 
 // 11
-// let arr = [1, 2, 3, 4, 5];
-// let newArr = arr.map((item) => ++item);
-// console.log(newArr);
+// let obj = {x: 1, y: 2, z: 3};
+// console.log(Object.keys(obj).length);
 
 // 12
-// let arr = [];
-// arr.push(1);
-// arr.push(2);
+// let obj = { x: 1, y: 2, z: 3 };
+// let key = "x";
+// console.log(obj[key]);
 
 // 13
-// let arr = [];
-// arr.push(1);
-// arr.push(2);
+// let obj = {x: 1, y: 2, z: 3};
+// console.log(obj.x);
 
 // 14
-// let arr = [];
-// arr[3] = "a";
-// arr[8] = "b";
-// console.log(arr.length);
+// let obj = {x: 1, y: 2, z: 3};
+// let key = 'x';
+// console.log(obj[key]);
 
 // 15
-let arr = [];
-arr.push(1);
-arr.push(2);
-arr.push(3);
